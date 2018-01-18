@@ -1,13 +1,16 @@
 * {
-  margin:0px;
+  margin: 0px;
   padding: 0px;
+}
+.clearfix {
+  clear: both;
 }
 body {
   background-color: #F5F5F5;
 }
 header {
   margin: 0px auto;
-  width:1155px;
+  width: 1155px;
   height: 140px;
   background-color:#F5F5F5;
 }
@@ -18,16 +21,16 @@ li {
   margin-left: 1px;
 }
 .home {
-  margin-right:13.5px;
-  margin-left:13.5px;
+  margin-right: 13.5px;
+  margin-left: 13.5px;
 }
 .logo {
   margin-right: 13.5px;
 }
 .parent1 {
-  width:1155px;
+  width: 1155px;
   height: 393px;
-  background-color:white;
+  background-color: white;
   margin: 20px auto;
 }
 .new {
@@ -42,69 +45,69 @@ li {
   background-size: contain;
 }
 .button_left {
-  position:absolute;
-  left:0px;
-  top:50%;
-  transform:translateY(-50%);
-  width:40px;
-  height:40px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
 }
 .button_right {
-  position:absolute;
-  right:0px;
-  top:50%;
-  transform:translateY(-50%);
-  width:40px;
-  height:40px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
 }
 .w3-black, .w3-hover-black:hover {
   color: #fff!important;
   background-color: #000!important;
 }
 .picture1 {
-  width:390px;
+  width: 390px;
   height: 393px;
-  background-color:white;
+  background-color: white;
   float: right;
   align-items: center;
 }
 .picture2 {
-  width:344px;
+  width: 344px;
   height: 374px;
-  background-color:white;
+  background-color: white;
   margin: 0px auto;
-  padding:10px;
+  padding: 10px;
   float: left;
   margin-left: 16px;
 }
 .slicemaker {
-  font-family:sans-serif;
+  font-family: sans-serif;
   color:#FF6600;
-  margin-top:11px;
+  margin-top: 11px;
   font-size: 28px;
   font-weight: bolder;
 }
 .empty {
   color:#0099CC;
-  font-family:sans-serif;
-  font-size:20px;
-  font-weight:500;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 23px;
 }
 .template {
   color:#009999;
   font-size: 13px;
   line-height: 19px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-weight: 500px;
   margin-top: 17px;
 }
 .read {
-  width:80px;
+  width: 80px;
   background-color:#1e8bc3;
   color: white;
   margin: 0px auto;
-  padding:12px 21px 12px 22px;;
+  padding: 12px 21px 12px 22px;;
   float: left;
   cursor: pointer;
   margin-top: 14px;
@@ -115,15 +118,15 @@ li {
   font-family: sans-serif;
 }
 .parent2 {
-  width:1155px;
+  width: 1155px;
   height: 350px;
   background-color:#F5F5F5;
   margin-bottom: 40px;
   margin: auto;
-  margin-top:30px;
+  margin-top: 30px;
 }
 .green {
-  width:360px;
+  width: 360px;
   height: 360px;
   background-color: #35bc7a;
   float: left;
@@ -132,10 +135,10 @@ li {
   position: relative;
 }
 .green1 {
-  width:300px;
+  width: 300px;
   height: 300px;
   background-color:#35bc7a;
-  padding:14px;
+  padding: 14px;
   margin: 0px auto;
   margin-top: 10px;
 }
@@ -143,15 +146,15 @@ li {
   width: 76px;
   height: 57px;
   margin: 0px auto;
-  margin-left:5px;
-  margin-top:5px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 .creative_solution {
   color: white;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 25px;
-  font-weight:600;
-  margin-right:36px;
+  font-weight: 600;
+  margin-right: 36px;
   margin-top: 30px;
 }
 .slice_product {
@@ -170,18 +173,18 @@ li {
   cursor: pointer;
 }
 .orange {
-  width:360px;
+  width: 360px;
   height: 360px;
   background-color: #f86924;
   float: left;
-  font-family:monospace;
+  font-family: monospace;
   margin-right: 37px;
 }
 .orange1 {
-  width:300px;
+  width: 300px;
   height: 300px;
   background-color: #f86924;
-  padding:14px;
+  padding: 14px;
   margin: 0px auto;
   margin-top: 12px;
   color: white;
@@ -195,10 +198,10 @@ li {
 }
 .fast {
   color: white;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 25px;
   margin-top: 30px;
-  font-weight:600;
+  font-weight: 600;
 }
 .web_design {
   color: white;
@@ -215,16 +218,16 @@ li {
   cursor: pointer;
 }
 .yellow {
-  width:360px;
+  width: 360px;
   height: 360px;
   background-color: #FF9900;
   float: left;
 }
 .yellow1 {
-  width:300px;
+  width: 300px;
   height: 300px;
   background-color:#FF9900;
-  padding:14px;
+  padding: 14px;
   margin: 0px auto;
   margin-top: 12px;
   color: white;
@@ -238,10 +241,10 @@ li {
 }
 .tech_support {
   color: white;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 25px;
   margin-top: 30px;
-  font-weight:600;
+  font-weight: 600;
 }
 .customer {
   color: white;
@@ -258,9 +261,9 @@ li {
   cursor: pointer;
 }
 .parent3 {
-  width:1155px;
+  width: 1155px;
   height: 330px;
-  background-color:white;
+  background-color: white;
   margin: 0px auto;
   margin-top: 40px;
 }
@@ -278,24 +281,24 @@ li {
   width: 264px;
   height: 230px;
   background-color:#fe9f00;
-  float:left;
+  float: left;
   margin-left: 19px;
   color: white;
-  font-family:cursive;
+  font-family: cursive;
   font-size: 15px;
   margin-top: 10px;
 }
 .sub_container1 {
-  width:210px;
-  height:200px;
+  width: 210px;
+  height: 200px;
   background-color:#fe9f00;
   padding: 10px;
   margin: 0px auto;
   margin-top: 10px;
 }
 .hover {
-  color:white;
-  font-family:sans-serif;
+  color: white;
+  font-family: sans-serif;
   font-size: 14px;
   font-weight: bold;
   margin-top: 15px;
@@ -303,15 +306,15 @@ li {
 .change_img {
   color: white;
   font-size: 11.6px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   line-height: 18px;
   margin-top: 20px;
 }
 .read_more1 {
   width: 80px;
   background-color:#b06d00;
-  color:white;
-  margin-top:16px;
+  color: white;
+  margin-top: 16px;
   font-size: 12px;
   padding: 7px 0px 7px 16px;
   font-family: sans-serif;
@@ -326,16 +329,16 @@ li {
   margin-top: 10px;
 }
 .sub_container2 {
-  width:210px;
-  height:200px;
+  width: 210px;
+  height: 200px;
   background-color:#fe9f00;
   padding: 10px;
   margin: 0px auto;
   margin-top: 10px;
 }
 .back_on_hover {
-  color:white;
-  font-family:sans-serif;
+  color: white;
+  font-family: sans-serif;
   font-size: 14px;
   font-weight: bold;
   margin-top: 15px;
@@ -343,15 +346,15 @@ li {
 .change_back {
   color: white;
   font-size: 11.6px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   line-height: 18px;
   margin-top: 20px;
 }
 .read_more2 {
   width: 80px;
-  margin-top:32px;
+  margin-top: 32px;
   background-color:#b06d00;
-  color:white;
+  color: white;
   font-size: 12px;
   padding: 7px 0px 7px 16px;
   font-family: sans-serif;
@@ -366,16 +369,16 @@ li {
   margin-top: 10px;
 }
 .sub_container3 {
-  width:210px;
-  height:200px;
+  width: 210px;
+  height: 200px;
   background-color:#fe9f00;
   padding: 10px;
   margin: 0px auto;
   margin-top: 10px;
 }
 .show_div {
-  color:white;
-  font-family:sans-serif;
+  color: white;
+  font-family: sans-serif;
   font-size: 14px;
   font-weight: bold;
   margin-top: 15px;
@@ -383,18 +386,18 @@ li {
 .show_hide_div {
   color: white;
   font-size: 11.6px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   line-height: 18px;
   margin-top: 20px;
 }
 .read_more3 {
   width: 80px;
   background-color:#b06d00;
-  color:white;
+  color: white;
   font-size: 12px;
   padding: 7px 0 7px 16px;
   font-family: sans-serif;
-  margin-top:33px;
+  margin-top: 33px;
   cursor: pointer
 }
 .orange_container4 {
@@ -404,19 +407,19 @@ li {
   float: left;
   margin-left: 19px;
   margin-right: 19px;
-  margin-top:8px;
+  margin-top: 8px;
 }
 .sub_container4 {
-  width:210px;
-  height:200px;
+  width: 210px;
+  height: 200px;
   background-color:#fe9f00;
   padding: 10px;
   margin: 0px auto;
   margin-top: 10px;
 }
 .tabbed_content {
-  color:white;
-  font-family:sans-serif;
+  color: white;
+  font-family: sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin-top: 15px;
@@ -424,14 +427,14 @@ li {
 .create_tabbed {
   color: white;
   font-size: 11.6px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   line-height: 18px;
   margin-top: 20px;
   }
 .read_more4 {
   width: 80px;
   background-color:#b06d00;
-  color:white;
+  color: white;
   font-size: 12px;
   padding: 7px 0 7px 16px;
   font-family: sans-serif;
@@ -441,49 +444,49 @@ li {
 .parent4 {
   width: 1155px;
   height: 350px;
-  background-color:white;
+  background-color: white;
   margin: 0px auto;
   margin-top: 30px;
 }
 .parent4_sub1 {
-  width:400px;
-  height:350px;
-  background-color:white;
+  width: 400px;
+  height: 350px;
+  background-color: white;
   float: left;
 }
 .image_div {
-  width:300px;
-  height:320px;
-  background-color:white;
+  width: 300px;
+  height: 320px;
+  background-color: white;
   margin: 0px auto;
-  margin-top:30px;
+  margin-top: 30px;
 }
 .parent4_sub2 {
-  width:755px;
-  height:350px;
-  background-color:white;
-  float:right;
+  width: 755px;
+  height: 350px;
+  background-color: white;
+  float: right;
 }
 .content_div {
-  width:600px;
+  width: 600px;
   height: 40px;
-  background-color:white;
-  padding:28px;
+  background-color: white;
+  padding: 28px;
   margin-top: 10px;
 }
 .content_div1 {
   color: #660033;
   font-size: 21px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 25px;
   font-weight: bolder;
   margin-bottom: 25px;
 }
 .parent4_sub3 {
-  width:730px;
-  height:190px;
-  background-color:white;
-  padding:10px;
+  width: 730px;
+  height: 190px;
+  background-color: white;
+  padding: 10px;
   margin: 0px auto;
   margin-top: 20px;
   margin-left: -26px;
@@ -493,18 +496,18 @@ li {
   height: 160px;
   font-family: monospace;
   float: left;
-  background-color:white;
+  background-color: white;
   margin-top: 27px;
 }
 .downld {
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: white;
   float: left;
   cursor: pointer;
 }
 .free_downld {
-  width:310px;
+  width: 310px;
   height: 50px;
   float: right;
   background-color: white;
@@ -517,7 +520,7 @@ li {
   line-height: 17px;
 }
 .flag {
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: white;
   float: left;
@@ -525,7 +528,7 @@ li {
   cursor: pointer;
 }
 .flag1 {
-  width:310px;
+  width: 310px;
   height: 50px;
   float: right;
   background-color: white;
@@ -543,19 +546,19 @@ li {
   width: 360px;
   height: 160px;
   font-family: monospace;
-  float:right;
-  background-color:white;
+  float: right;
+  background-color: white;
   margin-top: 28px;
 }
 .tube {
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: white;
   float: left;
   cursor: pointer;
 }
 .tube1 {
-  width:310px;
+  width: 310px;
   height: 50px;
   float: right;
   background-color: white;
@@ -568,7 +571,7 @@ li {
   line-height: 17px;
 }
 .bulb {
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: white;
   float: left;
@@ -576,7 +579,7 @@ li {
   cursor: pointer;
 }
 .bulb1 {
-  width:310px;
+  width: 310px;
   height: 50px;
   float: right;
   background-color: white;
@@ -592,28 +595,28 @@ li {
 }
 .parent5 {
   width: 100%;
-  height: 330px;
   background-color:#3c474d;
   margin-top: 30px;
 }
 .parent5_sub {
-  width:1155px;
-  height:350px;
+  width: 1155px;
+  padding: 40px 0;
   margin: 0px auto;
+  font-size: 13px!important;
 }
-.about {
-  width:240px;
-  height: 230px;
-  margin-top: 30px;
+.ft_outer h1 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}.about {
+  width: 240px;
   background-color:#3c474d;
   float: left;
 }
 .about1 {
-  width:250px;
-  height: 150px;
+  width: 250px;
   background-color:#3c474d;
   margin: 0px auto;
-  margin-top: 35px;
   font-family: sans-serif
 }
 .about2 {
@@ -623,29 +626,24 @@ li {
 }
 .about3 {
   color: white;
-  font-size: 13px;
   line-height: 19px;
   line-height: 23px;
-  margin-top: 15px;
 }
 .glossary {
-  width:240px;
-  height: 280px;
+  width: 240px;
   background-color:#3c474d;
   float: left;
   margin-left: 49px;
   font-family: sans-serif;
 }
 .glossary1 {
-  width:270px;
-  height: 150px;
-  color:white;
+  width: 270px;
+  color: white;
   background-color:#3c474d;
   margin: 0px auto;
-  margin-top: 50px
 }
 .glossary2 {
-  width:150px;
+  width: 150px;
   height: 50px;
   color: white;
   background-color:#3c474d;
@@ -659,139 +657,130 @@ li {
   margin-top: 15px;
 }
 .sub_glossary1 {
-  width:270px;
+  width: 270px;
   height: 50px;
   background-color:#3c474d;
   color: white;
+  margin-top: 25px;
+}
+p.us1 {
+  margin-top: -2px;
 }
 .bibend {
-  width:40px;
+  width: 40px;
   color: white;
   background-color:#1e8bc3;
   margin: 0px auto;
-  padding:7px 12px 7px 16px;;
+  padding: 7px 12px 7px 16px;;
   float: left;
   cursor: pointer;
-  font-size: 14px;
 }
 .iBibendum {
-  width:60px;
+  width: 60px;
   color: white;
   background-color: #1e8bc3;
   margin: 0px auto;
-  padding:7px 12px 7px 16px;;
+  padding: 7px 12px 7px 16px;;
   float: left;
   margin-left: 7px;
-  font-size: 14px;
   cursor: pointer;
 }
 .Curibitar {
-  width:60px;
+  width: 60px;
   color: white;
   background-color:#1e8bc3;
   margin: 0px auto;
-  padding:7px 12px 7px 16px;;
+  padding: 7px 12px 7px 16px;;
   float: left;
-  font-size: 14px;
   margin-left: 7px;
   cursor: pointer;
 }
 .sub_glossary2 {
-  width:270px;
+  width: 270px;
   height: 50px;
   background-color:#3c474d;
   color: white;
 }
 .Loemipis {
-  width:60px;
+  width: 60px;
   color: white;
   background-color: #1e8bc3;
   margin: 0px auto;
-  padding:7px 12px 7px 16px;
+  padding: 7px 12px 7px 16px;
   float: left;
   margin-top: -12px;
   cursor: pointer;
-  font-size: 14px;
 }
 .Lorem {
-  width:40px;
+  width: 40px;
   color: white;
   background-color:#1e8bc3;
   margin: 0px auto;
-  padding:8px 18px 6px 18px;
+  padding: 8px 18px 6px 18px;
   float: left;
   margin-left: 7px;
-  font-size: 14px;
   margin-top: -12px;
   cursor: pointer;
 }
 .massa {
-  width:30px;
+  width: 30px;
   color: white;
   background-color:#1e8bc3;
   margin: 0px auto;
-  padding:8px 18px 6px 16px;
+  padding: 8px 18px 6px 16px;
   float: left;
-  font-size: 14px;
   margin-left: 7px;
   margin-top: -12px;
   cursor: pointer;
 }
 .sub_glossary3 {
-  width:270px;
-  height: 50px;
+  width: 270px;
   background-color:#3c474d;
   color: white;
 }
 .neque {
-  width:40px;
+  width: 40px;
   color: white;
   background-color: #1e8bc3;
   margin: 0px auto;
-  padding:7px 12px 7px 16px;
+  padding: 7px 12px 7px 16px;
   float: left;
   margin-top: -24px;
-  font-size: 14px;
   cursor: pointer;
 }
 .rem {
-  width:20px;
+  width: 20px;
   color: white;
   background-color: #1e8bc3;
   margin: 0px auto;
-  padding:6px 20px 7px 20px;
+  padding: 6px 20px 7px 20px;
   float: left;
   margin-left: 7px;
-  font-size: 14px;
   margin-top: -24px;
   cursor: pointer;
 }
 .tellus {
-  width:30px;
+  width: 30px;
   color: white;
   background-color: #1e8bc3;
   margin: 0px auto;
-  padding:7px 18px 7px 15px;
+  padding: 7px 18px 7px 15px;
   float: left;
-  font-size: 14px;
   margin-left: 7px;
   margin-top: -24px;
   cursor: pointer;
 }
 .news {
-  width:235px;
-  height: 280px;
+  width: 235px;
   background-color:#3c474d;
   float: left;
   margin-left: 83px;
 }
 .news1 {
-  width:200px;
-  height: 200px;
+  width: 200px;
   color: white;
   background-color:#3c474d;
   margin: 0px auto;
-  margin-top:50px;
   font-family: sans-serif;
 }
 .news2 {
@@ -805,20 +794,18 @@ li {
   color: white;
 }
 .arw1 {
-  width:150px;
+  width: 130px;
   height: 40px;
   background-color:#3c474d;
   cursor: pointer;
-  margin-top: 15px;
 }
 .slicemkr1 {
   color: white;
   float: right;
-  margin-top:3px;
-  font-size: 16px;
+  margin-top: 3px;
 }
 .arw2 {
-  width:150px;
+  width: 130px;
   height: 40px;
   background-color:#3c474d;
   color: white;
@@ -827,12 +814,11 @@ li {
 }
 .slicemkr2 {
   color: white;
-  font-size: 16px;
   float: right;
-  margin-top:3px;
+  margin-top: 3px;
 }
 .arw3 {
-  width:150px;
+  width: 130px;
   height: 40px;
   background-color:#3c474d;
   color: white;
@@ -840,24 +826,19 @@ li {
 }
 .slicemkr3 {
   color: white;
-  font-size: 16px;
   float: right;
-  margin-top:3px;
+  margin-top: 3px;
 }
 .contact_us {
-  width:240px;
-  height: 280px;
+  width: 240px;
   background-color:#3c474d;
   float: right;
 }
 .contact_us1 {
   width: 250px;
-  height: 220px;
   background-color:#3c474d;
   color: white;
-  margin:0px auto;
-  margin-top: 45px;
-  font-size: 12px;
+  margin: 0px auto;
   line-height: 22px;
   font-family: sans-serif;
   line-height: 23px;
@@ -866,23 +847,21 @@ li {
   font-family: serif;
   font-size: 20px;
 }
-.us1 {
-  margin-top: 20px;
-}
 footer {
-  width:100%;
+  width: 100%;
   height: 70px;
   margin: 0px auto;
   background-color:#282f33;
 }
 .parent6 {
-  width:350px;
+  width: 350px;
   margin: 0px auto;
-  padding:25px 15px 19px 8px;
+  padding: 31px 15px 19px 8px;
   color: white;
-  font-size:14px;
+  font-size: 14px;
   background-color:#282f33;
   overflow: hidden;
+  font-family: sans-serif;
 }
 #move_btn {
   display: none;
